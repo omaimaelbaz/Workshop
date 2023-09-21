@@ -1,19 +1,18 @@
-#include <stdio.h>
-int main () {
-    char nom [25];
-    char prenom [25];
-    char sex [25];
-    int age ;
-    int phone;
-    printf(" enter votre nom:");
-    scanf ("%s", &nom);
-    printf(" enter votre prenom:");
-    scanf ("%s", &prenom);
-    printf(" enter votre sex:");
-    scanf ("%s", &sex);
-    printf(" enter votre age:");
-    scanf ("%d", &age);
-    printf(" enter votre phone number :");
-    scanf ("%d", &phone);
+#include<stdio.h>
+#include <string.h>
+int main ()
+{
+    char F_name[20], L_name[20] , sexe ;
+    int age , phone;
+    printf("ecrire votre nom  : \n");
+    scanf("%s", &F_name);
+    printf("ecrire votre prenom : \n");
+    scanf("%s", &L_name);
+    printf("ecrire votre Age : \n");
+    scanf("%d", &age);
+    printf("ecrire votre sex : \n");
+    scanf("%s", &sexe);
+    printf("ecrire votre numero de telephone: \n");
+    scanf("%d", &phone);
 
-}
+}  
